@@ -1,9 +1,14 @@
 {
     "functions": {
         "api/*.php": {
-            "runtime": "vercel-php@lastest",
+            "runtime": "vercel-php@0.6.2",
             "memory": 1024,
             "maxDuration": 10
+        }
+    },
+    "build": {
+        "env": {
+            "LD_LIBRARY_PATH": "/usr/lib:/usr/lib64:/usr/local/lib:/usr/local/lib64"
         }
     },
     "routes": [
