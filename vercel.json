@@ -6,11 +6,12 @@
             "maxDuration": 10
         }
     },
+
     "build": {
         "env": {
-            "LD_LIBRARY_PATH": "/usr/lib:/usr/lib64:/usr/local/lib:/usr/local/lib64"
+          "LD_LIBRARY_PATH": "/usr/lib:/usr/lib64:/usr/local/lib:/usr/local/lib64"
         }
-    },
+      },
     "routes": [
         {
             "src": "/favicon.ico",
